@@ -20,4 +20,6 @@ ULipSync: speech2blendshape facial expressions
 
 ![genshin_simulation](./docs/images/genshin_simulation.png?raw=true)
 
+![genshin_reality](./docs/images/genshin_reality.png?raw=true)
+
 ![wutheringwaves_simulation](./docs/images/wutheringwaves_simulation.png?raw=true)
