@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+
+<style type="text/css">
+body {
+	font-family: "Titillium Web", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 17px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+}
+h1 {
+	font-weight:300;
+	line-height: 1.15em;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+a:link,a:visited {
+	color: #1367a7;
+	text-decoration: none;
+}
+a:hover {
+	color: #208799;
+}
+h1, h2, h3 {
+	text-align: center;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2, h3 {
+	font-weight: 400;
+	margin: 16px 0px 4px 0px;
+}
+.paper-title {
+	padding: 16px 0px 16px 0px;
+}
+section {
+	margin: 32px 0px 32px 0px;
+	text-align: justify;
+	clear: both;
+}
+.col-5 {
+	 width: 20%;
+	 float: left;
+}
+.col-4 {
+	 width: 25%;
+	 float: left;
+}
+.col-2 {
+	 width: 50%;
+	 float: left;
+}
+.row, .author-row, .affil-row {
+	 overflow: auto;
+}
+.author-row, .affil-row {
+	font-size: 20px;
+}
+.row {
+	margin: 16px 0px 16px 0px;
+}
+.authors {
+	font-size: 18px;
+}
+.affil-row {
+	margin-top: 16px;
+}
+.teaser {
+	max-width: 100%;
+}
+.text-center {
+	text-align: center;
+}
+.screenshot {
+	width: 256px;
+	border: 1px solid #ddd;
+}
+.screenshot-el {
+	margin-bottom: 16px;
+}
+hr {
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ddd;
+	margin: 0;
+}
+.material-icons {
+	vertical-align: -6px;
+}
+p {
+	line-height: 1.25em;
+}
+.caption_justify {
+	font-size: 16px;
+	/*font-style: italic;*/
+	color: #666;
+	text-align: justify;
+	margin-top: 0px;
+	margin-bottom: 64px;
+}
+.caption {
+	font-size: 16px;
+	/*font-style: italic;*/
+	color: #666;
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 64px;
+}
+.caption_inline {
+	font-size: 16px;
+	/*font-style: italic;*/
+	color: #666;
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+.caption_bold {
+	font-size: 16px;
+	/*font-style: italic;*/
+	color: #666;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+video {
+	display: block;
+	margin: auto;
+}
+figure {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+figure {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#bibtex pre {
+	font-size: 14px;
+	background-color: #eee;
+	padding: 16px;
+}
+.blue {
+	color: #2c82c9;
+	font-weight: bold;
+}
+.orange {
+	color: #d35400;
+	font-weight: bold;
+}
+.flex-row {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.paper-btn {
+  position: relative;
+  text-align: center;
+
+  display: inline-block;
+  margin: 8px;
+  padding: 8px 18px;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+
+  background-color: #1367a7;
+  color: #ecf0f1 !important;
+  font-size: 20px;
+  width: auto;
+  height: auto;
+  font-weight: 600;
+}
+.paper-btn-parent {
+	display: flex;
+	justify-content: center;
+	margin: 16px 0px;
+}
+.paper-btn:hover {
+	opacity: 0.85;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.venue {
+	color: #1367a7;
+}
+</style>
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
+<head>
+	<title>Azur Lane Desktop Pet Wallpaper</title>
+	<meta property="og:description" content="Genshin VR"/>
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:creator" content="@mmalex">
+	<meta name="twitter:title" content="Genshin VR">
+	<meta name="twitter:description" content="A VR app running on Quest 3 that showcases Genshin Impact characters with LLM-powered interactions.">
+	<meta name="twitter:image" content="https://nvlabs.github.io/instant-ngp/assets/twitter.jpg">
+	
+	
+</head>
+
+<body>
+	
+<div class="container">
+	<div class="paper-title">
+		<h1>Genshin VR</h1>
+	</div>
+	<script>
+
+		function mytime(){
+		
+		var a = new Date();
+		
+		var b = a.toLocaleTimeString();
+		
+		var c = a.toLocaleDateString();
+		
+		document.getElementById("time").innerHTML = c+" "+b;
+		
+		}
+		
+		setInterval(function() {mytime()},1000);
+		
+	</script>
+	<div id="authors">
+		<div class="author-row">
+			<div class="col-1 text-center"><a href="https://Spphire.github.io">Apricity</a></div>
+		</div>
+
+		<div style="clear: both">
+			<div class="paper-btn-parent">
+				<a class="paper-btn" href="docs/videos/genshin_reality.mp4">
+					<span class="material-icons"> videocam </span>
+					Presentation
+				</a>
+				<a class="paper-btn" href="https://github.com/Spphire/Azur-Lane-Desktop-Pet-Wallpaper">
+					<span class="material-icons"> code </span>
+					Code
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<section id="teaser-videos">
+		<figure style="width: 25%; float: left">
+			<p class="caption_bold">
+				
+			</p>
+		</figure>
+
+		<figure style="width: 25%; float: left">
+			<p class="caption_bold">
+				
+			</p>
+		</figure>
+
+		<figure style="width: 25%; float: left">
+			<p class="caption_bold">
+				
+			</p>
+		</figure>
+
+		<figure style="width: 25%; float: left">
+			<p class="caption_bold">
+				
+			</p>
+		</figure>
+		<figure style="width: 100%; float: left">
+			<video class="centered" width="100%" autoplay muted loop playsinline>
+				<source src="docs/videos/genshin_reality.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</figure>
+	</section>	
+
+    <section id="teaser-videos">
+		<figure style="width: 25%; float: left">
+			<p class="caption_bold">
+				
+			</p>
+		</figure>
+
+		<figure style="width: 25%; float: left">
+			<p class="caption_bold">
+				
+			</p>
+		</figure>
+
+		<figure style="width: 25%; float: left">
+			<p class="caption_bold">
+				
+			</p>
+		</figure>
+
+		<figure style="width: 25%; float: left">
+			<p class="caption_bold">
+				
+			</p>
+		</figure>
+		<figure style="width: 100%; float: left">
+			<video class="centered" width="100%" autoplay muted loop playsinline>
+				<source src="docs/videos/wutheringwaves_reality.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</figure>
+	</section>	
+
+	<section id="gallery">
+  <h2 style="text-align:center;">Gallery</h2>
+  <div id="image-grid"></div>
+</section>
+
+<style>
+#image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 两列 */
+  gap: 16px;
+  justify-items: center;
+  margin-top: 20px;
+}
+#image-grid img {
+  max-width: 90%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+</style>
+
+<script>
+  // 手动列出 ./images 下的文件
+  const images = [
+//"./images/Desktop Screenshot 2025.09.17 - 20.04.59.85.png",
+//"./images/Desktop Screenshot 2025.09.17 - 20.05.19.04.png",
+//"./images/Desktop Screenshot 2025.09.17 - 20.05.54.20.png",
+
+//"./images/Desktop Screenshot 2025.09.17 - 20.06.16.02.png",
+//"./images/Desktop Screenshot 2025.09.17 - 20.06.27.80.png",
+//"./images/Desktop Screenshot 2025.09.17 - 20.07.00.35.png",
+
+//"./images/Desktop Screenshot 2025.09.17 - 20.07.11.70.png",
+//"./images/Desktop Screenshot 2025.09.17 - 20.07.36.32.png",
+//"./images/Desktop Screenshot 2025.09.17 - 20.07.48.89.png",
+
+//"./images/Desktop Screenshot 2025.09.17 - 20.08.02.63.png",
+//"./images/Desktop Screenshot 2025.09.17 - 20.08.12.47.png",
+//"./images/Desktop Screenshot 2025.09.17 - 20.08.23.83.png"
+  ];
+
+  const grid = document.getElementById("image-grid");
+
+  images.forEach(src => {
+    const img = document.createElement("img");
+    img.src = src;
+    grid.appendChild(img);
+  });
+</script>
+
+	
+</div>
+</body>
+</html>
